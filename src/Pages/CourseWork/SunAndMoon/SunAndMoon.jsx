@@ -1,44 +1,41 @@
-import { useState } from 'react';
-import styled from 'styled-components';
+import { useState } from "react";
+import styled from "styled-components";
 
-import sunSrc from './images/sun.png';
-import moonSrc from './images/moon.png';
+import sunSrc from "./images/sun.png";
+import moonSrc from "./images/moon.png";
 
 const SunAndMoon = () => {
-
-
     //JavaScript
     const [imgSrc, imgSrcUpdate] = useState(sunSrc);
 
     const changeToMoon = () => {
-        console.log('MOON');
+        console.log("MOON");
         imgSrcUpdate(moonSrc);
-    }
+    };
 
     const changeToSun = () => {
-        console.log('SUN');
+        console.log("SUN");
         imgSrcUpdate(sunSrc);
-    }
+    };
 
-    // HTML
-        return (
-            <SunAndMoonStyled>
+    // HTML: Mark Up
+    return (
+        <SunAndMoonStyled>
             <h2>Sun And Moon</h2>
-            <img src={imgSrc} onMouseEnter={ changeToMoon } onMouseLeave={ changeToSun } />
-            </SunAndMoonStyled>
-    );        
+            <img
+                src={imgSrc}
+                onMouseEnter={changeToMoon}
+                onMouseLeave={changeToSun}
+            />
+        </SunAndMoonStyled>
+    );
 };
 
 export default SunAndMoon;
 
-// CSS:Styles
+// CSS: Styles
 const SunAndMoonStyled = styled.div`
     text-align: center;
-
-    h2 {
-        font-size: 50px;
-        color: teal;
-    }
 
     img {
         border: solid 20px teal;
@@ -46,5 +43,4 @@ const SunAndMoonStyled = styled.div`
         padding: 20px;
         background-color: #043f3f;
     }
-    
-    `;
+`;
