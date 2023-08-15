@@ -1,0 +1,19 @@
+import styled from "styled-components";
+
+import Submission from "./Submission";
+
+const SubmissionList = ({ submissions }) => {
+    return (
+        <SubmissionListStyled className="SubmissionList">
+            {submissions.map((submission, idx) => {
+                return <Submission key={idx} submission={submission} />;
+            })}
+        </SubmissionListStyled>
+    );
+};
+
+export default SubmissionList;
+
+const SubmissionListStyled = styled.div`
+    margin: 20px 0px;
+`;
