@@ -76,17 +76,17 @@ const Essays = () => {
             </Essay>
             <Essay question="Q6: What is the difference between jpg, gif, png and svg images?">
                 Jpg / jpeg stands for joint photographic experts group. Jpg
-                compression-lossy and lossless. Lossy raster files, when it’s
+                compression-lossy and lossless. Lossy raster files, when its
                 compressed can degrade the image quality slightly. Proprietary,
                 lossy compression with millions of colors. Best use for
-                photography. Png stands for Portable Networks Graphics. It’s
+                photography. Png stands for Portable Networks Graphics. Its
                 ideal for web graphics. It can be used for a logo, social media
                 graphics, illustrations. Pngs are the good bet for maximum image
                 quality. Pngs are raster graphic bitmap images. Png will be
                 larger than jpgs. You can save pngs over and over without
                 compromise the image quality. It also supports true
                 transparency. Save as PNG-8 or PNG -24. Gif images stands for
-                graphics interchange format, It’s best known to support
+                graphics interchange format, Its best known to support
                 animations. This bitmap format supports up to 8 bit/pexel, which
                 limits the color format to 256. Supports transparency. Svg
                 stands for scalable vector graphics. You can scale the size of

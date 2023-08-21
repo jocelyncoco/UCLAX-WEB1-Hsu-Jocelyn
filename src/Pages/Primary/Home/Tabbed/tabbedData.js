@@ -1,24 +1,24 @@
-import image1 from './img/Alex-Esqueda-Box-Jump.jpg';
-import image2 from './img/Tire-Flip.jpg';
-import image3 from './img/Kids.jpg';
+import image1 from "./img/Thacker-Berry-Farm.jpg";
+import image2 from "./img/Kids.jpg";
+import image3 from "./img/Rewards.jpg";
 
 export const tabbedData = [
     {
         id: 1,
         image: image1,
-        title: 'About',
-        text: '<p>Join a <b>community</b> of people working hard every day to live a better quality of life, and have fun doing it!  At CrossFit Decimate, we provide inclusive programming, individualized modifications, and top-trained coaches to give you the best fitness journey  to fit your lifestyle.</p>',
+        title: "Our Farm",
+        text: "<p>Proud to provide Southern California with the best Strawberries on Earth for over 25+ years! Select locations open from 9am to 6pm or when Sold Out!</p>",
     },
     {
         id: 2,
         image: image2,
-        title: 'Mission',
-        text: '<p>At Decimate, we believe that just like your fitness journey, nutrition is not a “one size fits all”.  Our highly trained nutrition coaches work alongside you to help you achieve your optimal health and fitness goals.  Through one-on-one coaching and personalized nutrition programming, our coaches are able to determine the best nutrition plan for you.</p>',
+        title: "Product",
+        text: "<p>Our Strawberries are vine-ripened and are delivered to our stands daily, straight from the farm. They are unprocessed without gasses and preservatives for the highest quality taste and nutrition. Most store bought Strawberries are picked 3/4 percent green and are gassed and sprayed with preservatives for shipping and to increase shelf life, unlike them we are G.M.O. Free and sustainably farmed.</p>",
     },
     {
         id: 3,
         image: image3,
-        title: 'Vision',
-        text: '<p>With our highly qualified and trained coach, Kara Smith, CrossFit Decimate is able to provide adaptive and inclusive workouts for each individual athlete, whether you are injured or working with a disability.  At CrossFit Decimate we believe that all people can workout and want to workout, they just need to be guided on how to achieve their goals.  Coach Kara offers modifications to each workout to help each athlete achieve their own level of success.  </p>',
+        title: "Mission",
+        text: "<p>The varieties that Thacker Berry Farms grows are grown for flavor and nutrition, not shipping and artificial shelf life. Come discover why a Vine-Ripened Non-GMO Strawberry grown by people who put the time and care into them come out super sweet. And who have enough experience behind them to put their reputation on the line, produces the best Strawberry experience in the world, and as we like to say The Best Strawberries on Earth!</p>",
     },
 ];
