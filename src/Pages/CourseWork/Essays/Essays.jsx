@@ -50,13 +50,53 @@ const Essays = () => {
                 technology, helps reusable components and application state.
             </Essay>
             <Essay question="Q4: What is the difference between a Front-End and Back-End Developer?">
-                4. This is my answer
+                All websites require front-end and back-end development.
+                Front-end development focuses on the visual aspects of a website
+                — the part that users see and interact with directly. It
+                includes the design, navigation menus, texts, images, video.
+                Language uses for the frontend are html, CSS and JavaScript.
+                Responsiveness and performance are the two main objectives of
+                the front end. Tools and framework / libraries, React, Vue,
+                Angular. Back-end development comprises a site’s structure,
+                system, data, and logic. It’s the server side of the website.
+                The portion of the software doesn’t not come in contact with the
+                users. APIs, creating libraries, and working with system
+                components without user interfaces or even systems of scientific
+                programming. Database, storage, server apis, services, serving
+                up the site, security. PHP, ASP, .Net, Python, Java.
             </Essay>
             <Essay question="Q5: What are the different ways we can link files/resources to our application?">
-                5. This is my answer
+                Absolute linking: The global address of a resource. URL across.
+                Doesn’t matter where you are located in the world, the link will
+                be the same. (The entire URL) Root: Relative to the project
+                root. Root relative link is not specific to a domain. Each one
+                can have a different domain. (The folders within the URL, in
+                between /) Document relative: are links that relative to the
+                document you are writing.
             </Essay>
             <Essay question="Q6: What is the difference between jpg, gif, png and svg images?">
-                6. This is my answer
+                Jpg / jpeg stands for joint photographic experts group. Jpg
+                compression-lossy and lossless. Lossy raster files, when it’s
+                compressed can degrade the image quality slightly. Proprietary,
+                lossy compression with millions of colors. Best use for
+                photography. Png stands for Portable Networks Graphics. It’s
+                ideal for web graphics. It can be used for a logo, social media
+                graphics, illustrations. Pngs are the good bet for maximum image
+                quality. Pngs are raster graphic bitmap images. Png will be
+                larger than jpgs. You can save pngs over and over without
+                compromise the image quality. It also supports true
+                transparency. Save as PNG-8 or PNG -24. Gif images stands for
+                graphics interchange format, It’s best known to support
+                animations. This bitmap format supports up to 8 bit/pexel, which
+                limits the color format to 256. Supports transparency. Svg
+                stands for scalable vector graphics. You can scale the size of
+                svg images without any loss in quality, also supports a
+                transparent background and animation. Svg files are
+                code-a-series of mathematical equations that defines shape,
+                colors, and size. They retain high quality no matter how much it
+                was resized. Svg files are ideal for logo, icons, and simple
+                line art. You will lost quality when the bitmap image is being
+                use in the svg.
             </Essay>
             <Essay question="Q7: Define the following Agile roles: Product Owner, Product Manager, Business Analyst, Scrum Master, UX designer, Developer/Engineer, QA/SDET, and DevOps.">
                 7. This is my answer
