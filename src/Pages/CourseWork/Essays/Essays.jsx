@@ -99,7 +99,71 @@ const Essays = () => {
                 use in the svg.
             </Essay>
             <Essay question="Q7: Define the following Agile roles: Product Owner, Product Manager, Business Analyst, Scrum Master, UX designer, Developer/Engineer, QA/SDET, and DevOps.">
-                7. This is my answer
+                7. Product Owner: Manage product roadmap and prioritize the
+                backlog. They also define the product vision and manage
+                stakeholders. They have the authority to make key decisions and
+                in particular, are responsible for making sure the team is
+                working on the right items. It is helpful for the product owner
+                to be able to communicate effectively with stakeholders. Product
+                Manager: A product manager is a professional role that is
+                responsible for the development of products for an organization,
+                known as the practice of product management. Product managers
+                own the product strategy behind a product, specify its
+                functional requirements, and manage feature releases. They
+                produce vision, connects directly with stakeholders and
+                customers. Business Analyst: to advise businesses on how to
+                utilize Agile methodology best to achieve their desired
+                outcomes. The main goal of an Agile Business Analyst is to solve
+                business problems as and when they occur. While the rest of the
+                Agile team is focused on producing new pieces of working
+                software in every iteration or sprint, they are focused on the
+                main goal of the entire project. Recognize the Business needs,
+                analyze the domain, stock and groom the product catalog, help
+                team understand the big picture. They identify ways to make the
+                product better. Scrum Master: Remove obstacles to team progress,
+                including scope creep, and support team. A Scrum Master employs
+                the Scrum process, ensuring that all team members understand and
+                adhere to the procedures and practices and removing any
+                impediments. They help facilitate agile process–organize and
+                unblock impediments. UX designer: Work with the product owner to
+                come up with designs for the product. Main four roles are
+                concept design, product design, design support and validation.
+                UX Designer does customer research (and empathize), share
+                insights from that research with the Product Team, identify
+                customer needs and pain points, ideate to find solutions with
+                the Product Team, prototype ideas, test them with real users,
+                learn from mistakes, and then ship a product or a solution.
+                Developer / Engineer: Works on prioritized work by the product
+                owner in the sprint. Developers will build the product,
+                translating comps and prototype to the app UI, and they are
+                responsible for programming, testing, and debugging the product.
+                QA / SDET: QA (Quality Assurance) professionals and SDETs are
+                familiar with basic testing concepts. However, SDETs tend to
+                have more technical programming expertise, while QA
+                professionals have more experience with traditional testing
+                practices. Both can write code, but SDETs know how to design and
+                write complex testing software. SDETs are technical IT
+                professionals who have strong backgrounds in both programming
+                and software testing. They thoroughly understand software
+                testing patterns, best practices and the application under test.
+                An SDET could be a sort-of tech lead for a QA team. DevOps: it
+                stands for development and operations. DevOps is an approach to
+                software development that enables teams to build, test, and
+                release software faster and more reliably by incorporating agile
+                principles and practices, such as increased automation and
+                improved collaboration between development and operations teams.
+                The goal of DevOps is to help bring together developers who
+                write application software and operations who run the software
+                in production. Also, to build and maintain the infrastructure
+                where it runs. DevOps replaces the old approach of development
+                teams writing applications then throwing them over the wall to
+                an operations team who deploys and manages the software with
+                minimal visibility into how it was developed. In a DevOps
+                environment, developers and operations teams work side by side
+                throughout the entire process of developing, deploying, and
+                managing applications. They handling architecture and software
+                for deployment, IT, security for faster cycles of deployment and
+                response from use.
             </Essay>
         </EssaysStyled>
     );
