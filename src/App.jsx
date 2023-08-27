@@ -8,6 +8,7 @@ import PrimaryLayout from "./Pages/Primary/PrimaryLayout";
 import Home from "./Pages/Primary/Home/Home";
 import Staff from "./Pages/Primary/Staff/Staff";
 import Contact from "./Pages/Primary/Contact/Contact";
+import Location from "./Pages/Primary/Location/Location";
 
 /* Pages: CourseWork ---------------*/
 import CourseWorkLayout from "./Pages/CourseWork/CourseWorkLayout";
@@ -22,6 +23,7 @@ const App = () => {
                 <Route element={<PrimaryLayout />} path="">
                     <Route element={<Home />} path="" />
                     <Route element={<Staff />} path="staff" />
+                    <Route element={<Location />} path="Location" />
                     <Route element={<Contact />} path="contact" />
                 </Route>
 

@@ -19,6 +19,7 @@ const MediumLarge = () => {
                                 Home
                             </NavLink>
                             <NavLink to={"/staff"}>Staff</NavLink>
+                            <NavLink to={"/Location"}>Location</NavLink>
                             <NavLink to={"/contact"}>Contact</NavLink>
                             <NavLink to={"/course-work"}>Course</NavLink>
                         </nav>
@@ -61,12 +62,12 @@ const MediumLargeStyled = styled.div`
 
             line-height: 30px;
             margin: 0px 0px 20px 5px;
-            border-bottom: solid 3px #84d4d4;
+            border-bottom: solid 3px #5ed9a0;
 
             text-align: center;
             font-size: 12px;
             opacity: 0.8;
-            color: #84d4d4;
+            color: #5ed9a0;
             font-weight: bold;
             text-decoration: none;
             text-transform: uppercase;

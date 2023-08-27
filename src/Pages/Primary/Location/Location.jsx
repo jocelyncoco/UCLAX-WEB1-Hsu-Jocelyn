@@ -1,9 +1,16 @@
 import styled from "styled-components";
 
-const location = () => {
-    return <locationStyled className="location">location</locationStyled>;
+const Location = () => {
+    return (
+        <LocationStyled className="Location">
+            <Inset>
+                <h1>Location</h1>
+                <LocationList />
+            </Inset>
+        </LocationStyled>
+    );
 };
 
-export default location;
+export default Location;
 
-const locationStyled = styled.div``;
+const LocationStyled = styled.div``;
