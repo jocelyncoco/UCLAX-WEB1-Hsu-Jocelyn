@@ -1,16 +1,25 @@
 import styled from "styled-components";
 
-/* Data --------------------*/
+/* Data ---------------*/
 import { LocationData } from "./LocationData";
+
+/* Components ---------------*/
+import LocationDetail from "./LocationDetail";
 
 const LocationList = () => {
     return (
         <LocationListStyled className="LocationList">
-            LocationList
+            {LocationData.map((location) => {
+                return <LocationDetail key={location.id} location={location} />;
+            })}
         </LocationListStyled>
     );
 };
 
 export default LocationList;
 
-const LocationListStyled = styled.div``;
+const LocationListStyled = styled.div`
+    display: grid;
+    grid-template-columns: repeat(auto-fill, min-max(150px, 1fr));
+    gap: 1rem;
+`;

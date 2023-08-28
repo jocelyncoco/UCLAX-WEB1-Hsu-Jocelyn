@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+/* Components ---------------*/
+import Inset from "@/Common/PagesLayout/Inset";
+import LocationList from "./LocationList/";
+
 const Location = () => {
     return (
         <LocationStyled className="Location">
