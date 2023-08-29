@@ -20,6 +20,6 @@ export default LocationList;
 
 const LocationListStyled = styled.div`
     display: grid;
-    grid-template-columns: repeat(auto-fill, min-max(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 1rem;
 `;

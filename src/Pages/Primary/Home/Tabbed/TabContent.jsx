@@ -21,7 +21,7 @@ export default TabContent;
 
 const TabContentStyled = styled.div`
     padding: 20px;
-    background-color: #076a3c;
+    background-color: #044f2c;
 
     @media ${breakpoints.isMediumAndUp} {
         display: grid;

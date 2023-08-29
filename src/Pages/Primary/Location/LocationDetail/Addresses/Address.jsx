@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-const Address = ({ Address }) => {
-    return <AddressStyled className="Address">{Address}</AddressStyled>;
+const Address = ({ address }) => {
+    return <AddressStyled className="Address">{address}</AddressStyled>;
 };
 
 export default Address;

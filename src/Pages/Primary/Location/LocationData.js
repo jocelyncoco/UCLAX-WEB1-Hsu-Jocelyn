@@ -44,7 +44,7 @@ export const LocationData = [
     {
         id: 4,
         image: image4,
-        City: "Rolling Hills Estates (Palos Verdes)",
+        city: "Rolling Hills Estates (Palos Verdes)",
         hours: "Mon-Sun 9am-5pm",
         address: [
             "26510 Crenshaw Blvd, Palos Verdes",
@@ -74,9 +74,9 @@ export const LocationData = [
     {
         id: 7,
         image: image7,
-        City: "Fountain Valley",
-        Hours: "Mon-Sun 9am-6pm",
-        address: ["2201 N Lakewood Blvd. Suite D,288. Fountain Valley"],
+        city: "Fountain Valley",
+        hours: "Mon-Sun 9am-6pm",
+        address: ["2201 N Lakewood Blvd. Suite D, 288. Fountain Valley"],
     },
     {
         id: 8,
@@ -130,9 +130,9 @@ export const LocationData = [
     {
         id: 13,
         image: image13,
-        City: "Yorba Linda",
-        Hours: "Mon-Sun 9am-6pm",
-        Address: [
+        city: "Yorba Linda",
+        hours: "Mon-Sun 9am-6pm",
+        address: [
             "5951 Kellogg Dr. Yorba Linda",
             "Corner of Kellogg Dr & Grandview Ave.",
         ],

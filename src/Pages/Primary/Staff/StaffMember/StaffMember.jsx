@@ -26,7 +26,7 @@ const StaffMemberStyled = styled.div`
     h3 {
         font-size: 20px;
         color: white;
-        background-color: #014444;
+        background-color: #076a3c;
         margin: 0px;
         padding: 5px 10px;
     }
