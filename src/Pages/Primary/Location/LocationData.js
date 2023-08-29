@@ -37,7 +37,7 @@ export const LocationData = [
     {
         id: 3,
         image: image3,
-        city: "Long Beach-Los Coyotoes",
+        city: "Long Beach - Los Coyotoes",
         hours: "Mon-Sun 9am-5pm",
         address: ["2952 N Los Coyotes St.", "Corner of Los Coyotes & Spring"],
     },
